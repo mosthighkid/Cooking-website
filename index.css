@@ -1,0 +1,389 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+    overflow-wrap: anywhere;
+}
+nav{
+    border-bottom: 1px solid #EEEEEE;
+    margin-bottom: 5%;
+}
+nav ul{
+    display: flex;
+    gap: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+nav ul #foodie-logo{
+    margin-left: 5%;
+    margin-right: 15%;
+    cursor: pointer;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li{
+    list-style: none;
+}
+nav ul #social-links{
+    margin-left: 15%;
+}
+
+/* herosection  */
+
+.box{
+    display: flex;
+}
+
+.box-text{
+    background-color: #E7FAFE;
+    margin-left: 3%;
+    border-radius: 35px 0 0 35px;
+    padding-right: 10%;
+    /* margin-bottom: 8%; */
+}
+
+.box #img4{
+    margin-right: 3%;
+    border-radius: 0 35px 35px 0;
+}
+.box-text #h1{
+    padding-left: 35px;
+    font-size: 3rem;
+}
+.box-text #p1{
+    padding: 30px 0 0 35px;
+    color: #697174;
+    font-size: 0.8rem;
+}
+.box-text #img2{
+    padding: 30px 0 30px 0;
+    cursor: pointer;
+}
+.box-text #img3{
+    padding: 28px 0 0 30px;
+    cursor: pointer;
+}
+.box-text #img6{
+    padding: 25px 0 0 15px;
+    cursor: pointer;
+}
+.box-text #img7{
+    position: absolute;
+    bottom: -25%;
+    left:9%;   
+    cursor: pointer;
+}
+.box-text #img8{
+    position: absolute;
+    bottom: -26%;
+    left: 30%;
+
+    cursor: pointer;
+}
+.box #img9{
+    position: absolute;
+    left: 43%;
+    bottom: 45%;
+    cursor: pointer;
+}
+
+/* categories  */
+
+.categories{
+    display: flex;
+}
+.categories #h2{
+    margin-top: 8%;
+    margin-left: 7%;
+    margin-right: 60%;
+    margin-bottom: 6%;
+}
+.categories #btn1{
+    margin-top: 8%;
+    border: 1px solid #E7FAFE;
+    background-color: #E7FAFE;
+    padding: 5px 35px 5px 35px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 6%;
+}
+
+.img-cont1 #img10{
+    margin-left: 5%;
+    margin-right: 1%;
+    cursor: pointer;
+}
+.img-cont1 #img11{
+    margin-right: 1%;
+    cursor: pointer;
+}
+.img-cont1 #img12{
+    margin-right: 1%;
+    cursor: pointer;
+}
+.img-cont1 #img13{
+    margin-right: 1%;
+    cursor: pointer;
+}
+.img-cont1 #img14{
+    margin-right: 1%;
+    cursor: pointer;
+}
+.img-cont1 #img15{
+    margin-right: 1%;
+    cursor: pointer;
+}
+.img-cont1{
+    margin-bottom: 10%;
+}
+
+/* Recipes section  */
+
+.recipes{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.recipes #p4{
+    margin-bottom: 10%;
+    color: #697174;
+}
+.recipes #h4{
+    font-size: 2.5rem;
+    margin-bottom: 2%;
+}
+
+.recipes-img {
+    padding: 15px;
+}
+.recipes-img img{
+    padding-right: 8px;
+    cursor: pointer;
+}
+
+/* learn more section */
+
+.box2{
+    display: flex;
+    margin-top: 10%;
+}
+.learn-more-text{
+    /* background-color: #E7FAFE; */
+}
+.learn-more-text #h3{
+    padding-top: 33%;
+    padding-left: 45px;
+}
+.learn-more-text #p2{
+    padding-top: 5%;
+    padding-left: 45px;
+    color: #697174;
+    font-size: 0.8rem;
+}
+.learn-more-text img{
+    padding: 80px 0 0 45px;
+    cursor: pointer;
+}
+
+/* post section */
+
+.post-text{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#img16{
+    margin-top: 10%;
+    /* margin-left: 20%; */
+    margin-bottom: 1%;
+}
+.post-text #p5{
+    text-align: center;
+    margin-bottom: 5%;
+    color: #697174;
+    font-size: 0.8rem;
+
+
+}
+.post-img{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    background: -webkit-linear-gradient(#fff, #E7FAFE);
+    cursor: pointer;
+}
+.box3{
+    background: -webkit-linear-gradient(#fff, #E7FAFE);
+}
+.box3 #image{
+    margin-left: 42%;
+    margin-top: 10%;
+    margin-bottom: 4%;
+    cursor: pointer;
+}
+
+/* 2 recipes  */
+
+.recipes-text{
+    display: flex;
+    margin: 10% 5% 5% 5%;
+}
+.recipes-text #h6{
+    margin-right: 10%;
+}
+.recipes-text #p6{
+    color: #697174;
+    font-size: 0.8rem;
+    margin-right: 3%;
+    margin-top: 2%;
+}
+
+.recipe-img{
+    /* align-content: center; */
+    margin: 2%;
+    margin-bottom: 8%;
+}
+.recipe-img img{
+    padding-right: 10px;
+    padding-bottom: 35px;
+    cursor: pointer;
+}
+
+/* inbox section  */
+
+.deliciousness-inbox-container{
+    background-color:hsl(190, 92%, 95%) ;
+    border-radius: 20px;
+    width: 100%;
+    height: 60vh;
+    padding: 2em 0 0;
+    margin-top: 10em;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.your{
+    text-align: center;
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 50px;
+}
+.your p:first-of-type{
+    font-size: 2.3em;
+    font-weight: bold;
+}
+.your p:last-of-type{
+    opacity: 0.5;
+    margin-top: 10px;
+}
+ .deliciousness-inbox-container figure{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.deliciousness-inbox-container figure div{
+    display: flex;
+    width: 35%;
+    height: 10vh;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 20px;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+}
+.deliciousness-inbox-container figure div input{
+    padding: 15px;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+}
+.deliciousness-inbox-container figure div a{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.deliciousness-inbox-container figure img{
+    width: 30%;
+}
+.deliciousness-inbox-container figure .fool{
+    margin-top: 0px;
+    border-radius: 0 0 20px 0;
+
+}
+.deliciousness-inbox-container figure .food{
+    margin-top: -102px;
+    width: 30%;
+    border-radius: 0 0 0 20px;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+}
+
+.footer ul{
+    display: flex;
+    gap: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.footer ul #foodie-logo{
+    margin-left: 5%;
+    margin-right: 45%;
+    cursor: pointer;
+}
+.footer ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.footer ul li{
+    list-style: none;
+}
+.footer ul #social-links{
+    margin-left: 15%;
+}
+.footer p{
+    color: #697174;
+    font-size: 0.9rem;
+    margin-left: 5%;
+    padding-bottom: 3%;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+footer ul li{
+    list-style: none;
+    gap: 30px;
+}
+footer ul{
+    gap: 20px;
+    display: flex;
+}
+footer #social-links{
+    margin-inline-start: 390%;
+}
+footer p{
+    color: #697174;
+    font-size: 1rem;
+}
+footer span{
+    color: red;
+}
